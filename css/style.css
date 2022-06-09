@@ -1,0 +1,188 @@
+html {
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #378aad;
+}
+
+.navbar a {
+    font-family: 'BioRhyme', sans-serif;
+    font-weight: 600;
+    font-size: 1.55rem;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.left-s {
+    background-color: #378aad;
+}
+
+.nav {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pic_1 {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.pic_1 img {
+    object-fit: cover;
+}
+
+.nav a {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'BioRhyme', sans-serif;
+    font-size: 1rem;
+}
+
+/*文字設定*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BioRhyme', sans-serif;
+}
+
+/*p, a, input, label, textarea, span, ul, li {
+            font-family: 'Work Sans', sans-serif
+        }*/
+/*about設定*/
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+}
+
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+#about h1 {
+    font-family: 'BioRhyme', sans-serif;
+    color: #495057;
+    font-weight: 800;
+    font-size: 3.5rem;
+    padding-top: 5rem;
+}
+
+.heading-blue {
+    color: #378aad;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    background-color: #888888;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#about ul {
+    font-family: 'Work Sans', sans-serif;
+    color: #495057;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-indent: -1.5em; /*文字縮排*/
+}
+
+#about ul span {
+     color: #378aad;
+     margin-right: 0.25rem;
+}
+
+#experience h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #495057;
+}
+
+#experience h3 {
+    color: #495057;
+    font-weight: 800;
+    font-size: 1.55rem;
+}
+
+#experience p {
+    font-family: 'Work Sans', sans-serif;
+    color: #495057;
+    font-size: 1.4rem;
+}
+
+#experience ul {
+    font-family: 'Work Sans', sans-serif;
+    color: #888888;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+}
+
+.subheading {
+    font-family: 'Work Sans', sans-serif;
+    color: #888888;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.text-time {
+    font-family: 'Work Sans', sans-serif;
+    --bs-text-opacity: 1;
+    color: #378AAD;
+    font-size: 1.4rem;
+}
+
+.p-head {
+    font-family: 'Work Sans', sans-serif;
+    color: #495057;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+#education h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #495057;
+}
+
+#education h3 {
+    color: #495057;
+    font-weight: 800;
+    font-size: 1.55rem;
+}
+
+#skills h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #495057;
+}
+
+#skills h3 {
+    color: #495057;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+#skills ul {
+    color: #888888;
+    font-size: 1.4rem;
+}
+
+#skills ul span {
+    color: #378aad;
+}
